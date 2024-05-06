@@ -7,4 +7,4 @@ Each content will have several posts to be uploaded in the month. Each post will
 
 # Accessibility
 The website is hosted at https://himscheduler.netlify.app
---Notice that your data will be store in local storage.--
+**Notice that your data will be store in local storage.**
