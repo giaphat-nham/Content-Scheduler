@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Scheduler</title>
+  </head>
+  <body>
+    <header>
+      <div class="page-name">HIM COLLECTION</div>
+    </header>
+    <div class="content">
+      <div class="grid-col" id="1">
+        <div class="month-list">
+          <div class="list-title">Danh sách lịch</div>
+          <ul class="month-list-ul">
+            <li>
+              <span>Tháng 1</span>
+              <button class="delete-schedule">&times;</button>
+            </li>
+            <li>Tháng 2</li>
+            <li>Tháng 3</li>
+          </ul>
+          <div class="buttons">
+            <button class="add-month">Thêm lịch mới</button>
+          </div>
+        </div>
+      </div>
+      <div class="grid-col" id="2" data-schedule-content>
+        <div class="schedule-content-title">
+          <div class="schedule-title">
+            <span class="schedule-title-text">Tháng 1</span>
+            <div class="add-content button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Capa_1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 512 512"
+                style="enable-background: new 0 0 512 512"
+                xml:space="preserve"
+                width="24"
+                height="24"
+              >
+                <g>
+                  <path
+                    d="M480,224H288V32c0-17.673-14.327-32-32-32s-32,14.327-32,32v192H32c-17.673,0-32,14.327-32,32s14.327,32,32,32h192v192   c0,17.673,14.327,32,32,32s32-14.327,32-32V288h192c17.673,0,32-14.327,32-32S497.673,224,480,224z"
+                  />
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="sub-grid">
+          <div class="grid-col">
+            <div class="schedule-content">
+              <div class="post-content">
+                <div class="content-info">
+                  <div class="info">
+                    <div class="content-name">Tên content</div>
+                    <div class="progess">Tiến độ: 2/3</div>
+                    <div class="color-code"></div>
+                  </div>
+
+                  <div class="content-buttons">
+                    <div class="configure-content button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        id="Filled"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        height="24"
+                      >
+                        <path
+                          d="M1.172,19.119A4,4,0,0,0,0,21.947V24H2.053a4,4,0,0,0,2.828-1.172L18.224,9.485,14.515,5.776Z"
+                        />
+                        <path
+                          d="M23.145.855a2.622,2.622,0,0,0-3.71,0L15.929,4.362l3.709,3.709,3.507-3.506A2.622,2.622,0,0,0,23.145.855Z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="add-post button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        id="Capa_1"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 512 512"
+                        style="enable-background: new 0 0 512 512"
+                        xml:space="preserve"
+                        width="24"
+                        height="24"
+                      >
+                        <g>
+                          <path
+                            d="M480,224H288V32c0-17.673-14.327-32-32-32s-32,14.327-32,32v192H32c-17.673,0-32,14.327-32,32s14.327,32,32,32h192v192   c0,17.673,14.327,32,32,32s32-14.327,32-32V288h192c17.673,0,32-14.327,32-32S497.673,224,480,224z"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="delete-post button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        id="Outline"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        height="24"
+                      >
+                        <path
+                          d="M21,4H17.9A5.009,5.009,0,0,0,13,0H11A5.009,5.009,0,0,0,6.1,4H3A1,1,0,0,0,3,6H4V19a5.006,5.006,0,0,0,5,5h6a5.006,5.006,0,0,0,5-5V6h1a1,1,0,0,0,0-2ZM11,2h2a3.006,3.006,0,0,1,2.829,2H8.171A3.006,3.006,0,0,1,11,2Zm7,17a3,3,0,0,1-3,3H9a3,3,0,0,1-3-3V6H18Z"
+                        />
+                        <path
+                          d="M10,18a1,1,0,0,0,1-1V11a1,1,0,0,0-2,0v6A1,1,0,0,0,10,18Z"
+                        />
+                        <path
+                          d="M14,18a1,1,0,0,0,1-1V11a1,1,0,0,0-2,0v6A1,1,0,0,0,14,18Z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="expand-content button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        id="Isolation_Mode"
+                        data-name="Isolation Mode"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        height="24"
+                      >
+                        <path
+                          d="M16.041,24,6.534,14.48a3.507,3.507,0,0,1,0-4.948L16.052,0,18.17,2.121,8.652,11.652a.5.5,0,0,0,0,.707l9.506,9.52Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="posts">
+                  <div class="post-infos">
+                    <div class="post-info">Ngày đăng</div>
+                    <div class="post-info">Hoàn thành</div>
+                    <div class="post-info">Xoá</div>
+                  </div>
+                  <div class="post">
+                    <div class="post-date">12</div>
+                    <input
+                      type="checkbox"
+                      name="post-status"
+                      class="post-status"
+                    />
+                    <button class="delete-post">&times;</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-col">
+            <div class="calender">
+              <div class="days">
+                <div class="day">Su</div>
+                <div class="day">Mo</div>
+                <div class="day">Tu</div>
+                <div class="day">We</div>
+                <div class="day">Th</div>
+                <div class="day">Fr</div>
+                <div class="day">Sa</div>
+              </div>
+              <div class="dates"></div>
+            </div>
+            <div class="today-content-container">
+              <div class="title">Content hôm nay</div>
+              <ul class="today-content">
+                <li>Content 1</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="credit">Created by NhamGiaPhat</div>
+    </footer>
+    <div class="overlay">
+      <div class="add-month-form modal">
+        <div class="title">Thêm lịch mới</div>
+        <input type="text" name="month-name" placeholder="Nhập tên lịch" />
+        <select name="month">
+          <option value="1">Tháng 1</option>
+          <option value="2">Tháng 2</option>
+          <option value="3">Tháng 3</option>
+          <option value="4">Tháng 4</option>
+          <option value="5">Tháng 5</option>
+          <option value="6">Tháng 6</option>
+          <option value="7">Tháng 7</option>
+          <option value="8">Tháng 8</option>
+          <option value="9">Tháng 9</option>
+          <option value="10">Tháng 10</option>
+          <option value="11">Tháng 11</option>
+          <option value="12">Tháng 12</option>
+        </select>
+        <input type="number" name="year" placeholder="Chọn năm" min="0" />
+        <button class="add-month-form-button">Thêm</button>
+        <button class="cancel-month-form-button">Hủy</button>
+      </div>
+      <div class="add-content-form modal">
+        <div class="title">Thêm content mới</div>
+        <input type="text" name="content-name" placeholder="Nhập tên content" />
+        <input type="color" name="content-color" />
+        <button class="add-content-form-button">Thêm</button>
+        <button class="cancel-content-form-button">Hủy</button>
+      </div>
+      <div class="add-post-form modal">
+        <div class="title">Thêm post mới</div>
+        <label for="post-date">Chọn ngày đăng bài</label>
+        <select name="post-date">
+          <option value="1">Ngày 1</option>
+        </select>
+        <button class="add-post-form-button">Thêm</button>
+        <button class="cancel-post-form-button">Hủy</button>
+      </div>
+      <div class="update-content-form modal">
+        <div class="title">Sửa thông tin content</div>
+        <input
+          type="text"
+          name="update-content-name"
+          placeholder="Nhập tên content"
+        />
+        <input type="color" name="update-content-color" />
+        <button class="update-content-form-button">Sửa</button>
+        <button class="cancel-update-content-form-button">Hủy</button>
+      </div>
+    </div>
+  </body>
+</html>
